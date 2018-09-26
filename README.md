@@ -13,6 +13,9 @@ This repository is for data relevant to watershed assessments 1, 2, and 3.
 
 - Attawapiskat River below Muketei River (04FC001)
     + Data from past ~50 years
-- Attawapiskat River below Attawapiskat Lake
+- Attawapiskat River below Attawapiskat Lake (04FB001)
     + ~ 35 years of data
     + Upstream of most interesting things
+- Attawapiskat River above Lawashi Channel (04FC002)
+    + Only ~ 11 years of data
+    + Water level only, no discharge data
