@@ -2,7 +2,42 @@ README.md for lws515
 
 This repository is for data relevant to watershed assessments 1, 2, and 3.
 
+###Natal Harmer Ridge
+Elevation = 1889.8
+Climate Data 
+1971-1991
+Coordinates:
+Distance from Hydrometric Station:
+
+
+
+###Natal Kaiser Resources
+Elevation = 1127.8
+Climate Data
+1969-1980
+Coordinates:
+Distance from Hydrometric Station:
+
+###Sparwood
+Elevation = 1137.7		or =1136.7
+Climate Data
+1980-2018
+Coordinates:
+Distance from Hydrometric Station:
+
+###Elk River Near Natal
+Daily Discharge (m3/s) (PARAM = 1) and Daily Water Level (m) (PARAM = 2)
+
+
+49° 51' 56'' N  114° 52' 07'' W
+
+
+
+
+Below are for the Attawapiskat Watershed, which I'm no longer focusing on for this assignment.
+
 ###Climate Data
+
 - Ogoki Post A 
     + About 175km away
     + Data from 2014 to today

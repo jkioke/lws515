@@ -1,0 +1,48 @@
+---
+title: "watershed_assessment"
+author: "kioke"
+date: "October 3, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(gapminder)
+natal <- read_csv("natal_harmer_ridge.csv")
+```
+
+```{r}
+summary(natal)
+natal %>% 
+  filter(Year == 1979) %>% 
+  ggplot(aes(`Date/Time`, `Total Precip (mm)`)) +
+  geom_point(alpha = 0.2) +
+  geom_line()
+
+
+```
+
+```{r}
+read_csv("natal_kaiser_resources.csv")
+```
+
+```{r}
+elkriv <- read_csv("elkriver_nearnatal_daily.csv")
+```
+
+```{r}
+tidyelk <- gather(elkriv, key = "Month", value = "Flow/Level", Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec)
+tidyelk %>% 
+  write_csv("tidyelkriver.csv"
+
+  
+
+  ggplot(aes(Month, `Flow/Level`)) +
+  geom_point() +
+  geom_line()
+```
+

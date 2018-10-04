@@ -1,0 +1,26 @@
+---
+title: "Elk River"
+author: "kioke"
+date: "October 3, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+elkriv <- read_csv("elkriver_nearnatal_daily_nosym.csv")
+
+tidyelk <- gather(elkriv, key = "Month", value = "Flow/Level", Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec)
+
+tidyelk
+```
+
+
+```{r}
+tidyelk %>% 
+  write_csv("tidy_elkriv_data.csv")
+```
+
